@@ -1,0 +1,32 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anirudharkery/Building-RESTFUL-API-s.git"
+  },
+  "author": "Anirudh Arkery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anirudharkery/Building-RESTFUL-API-s/issues"
+  },
+  "homepage": "https://github.com/anirudharkery/Building-RESTFUL-API-s#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "mongose": "^0.0.2-security",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.22.20"
+  }
+}
